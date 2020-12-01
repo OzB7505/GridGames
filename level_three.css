@@ -1,19 +1,25 @@
 .container {
-  
+  grid: 'one one two'
+'three four four';
+  display:grid;  
+  grid-template-columns: repeat(3 , 1fr);
+  grid-template-rows: 100px 100px;
 }
 
 #grid-item-1 {
+grid-area: one;
 
 }
 
 #grid-item-2 {
+grid-area: two;
 
 }
 
 #grid-item-3 {
-
+grid-area: three;
 }
 
 #grid-item-4 {
-
+grid-area: four;
 }
